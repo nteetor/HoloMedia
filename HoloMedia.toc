@@ -1,0 +1,16 @@
+## Interface: 80000
+## Title: HoloMedia
+## Notes: Inserts media for holodrum WAs into LibSharedMedia's storage.
+## Version: 1.0.0
+## Author: Holodrum
+## X-Category: Miscellaneous
+
+## OptionalDeps: LibStub, LibSharedMedia-3.0
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibSharedMedia-3.0\lib.xml
+#@end-no-lib-strip@
+
+HoloMedia.lua

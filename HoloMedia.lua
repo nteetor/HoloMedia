@@ -16,9 +16,14 @@ local MediaType_STATUSBAR = LSM.MediaType.STATUSBAR
 -- -----
 --   FONT
 -- -----
-LSM:Register(MediaType_FONT, "Calamity", [[Interface\Addons\SharedMedia_Holo\fonts\calamity\Calamity-Regular.ttf]])
-LSM:Register(MediaType_FONT, "Calamity Bold", [[Interface\Addons\SharedMedia_Holo\fonts\calamity\Calamity-Bold.ttf]])
+LSM:Register(MediaType_FONT, "Calamity", [[Interface\Addons\HoloMedia\fonts\calamity\Calamity-Regular.ttf]])
+LSM:Register(MediaType_FONT, "Calamity Bold", [[Interface\Addons\HoloMedia\fonts\calamity\Calamity-Bold.ttf]])
 
+LSM:Register(MediaType_FONT, "Inconsolata", [[Interface\Addons\HoloMedia\fonts\inconsolata\Inconsolata_SemiCondensed-Regular.ttf]])
+LSM:Register(MediaType_FONT, "Inconsolata Light", [[Interface\Addons\HoloMedia\fonts\inconsolata\Inconsolata_SemiCondensed-Light.ttf]])
+LSM:Register(MediaType_FONT, "Inconsolata Medium", [[Interface\Addons\HoloMedia\fonts\inconsolata\Inconsolata_SemiCondensed-Regular.ttf]])
+LSM:Register(MediaType_FONT, "Inconsolata Bold", [[Interface\Addons\HoloMedia\fonts\inconsolata\Inconsolata_SemiCondensed-Bold.ttf]])
+LSM:Register(MediaType_FONT, "Inconsolata Thick", [[Interface\Addons\HoloMedia\fonts\inconsolata\Inconsolata_SemiCondensed-Black.ttf]])
 
 -- -----
 --   SOUND
